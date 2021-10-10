@@ -52,7 +52,7 @@ stages {
             }
             steps {
                 sh """
-                echo "Building Artifact"
+                echo "Building Artifact,,,,,,,,,"
                 """
 
                 sh """
