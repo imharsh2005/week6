@@ -1,5 +1,3 @@
 # week6
 THis is a new change 1 
-THis is a new change 2
-t
-
+THis is a new change 3
