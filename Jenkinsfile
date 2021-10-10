@@ -20,18 +20,8 @@ stages {
             }
         }
 */
-        stage('Code Checkout') {
-            steps {
-                checkout([
-                    $class: 'GitSCM', 
-                    branches: [[name: 'master']], 
-                    userRemoteConfigs: [[url: 'https://github.com/imharsh2005/week6.git']]
-                ])
-            }
-        }
         stage(' Unit Testing') {
-            steps {
-                echo "${scmVars.GIT_COMMIT}"
+            steps {                
                 sh """
                 echo "Running Unit Tests"
                 """
