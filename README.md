@@ -1,4 +1,1 @@
-# week6
-THis is a new change 1
-THis is a new change 4
-THis is a new change 5 
+this is readme file change 1
