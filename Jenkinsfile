@@ -33,7 +33,7 @@ stages {
 			}
 		}
 		steps {
-			echo "I am a main branch"
+			echo "I am a main branch.."
 		}
 	}
 }
